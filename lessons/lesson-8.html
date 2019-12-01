@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./../main.css" />
+</head>
+<div class="container">
+  <h1>Class 8</h1>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Class Walkthrough of a Project</h3>
+      <h6>Using all the tools you have learned so far, let's build a website.</h6>
+    </div>
+  </div>
+
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Submit Topics You Want Us To Cover Specific To Your Personal Page</h3>
+      <h6>Please enter a topic you would like for us to cover in more depth on the last day that you would like to add to your personal site.</h6>
+    </div>
+    <div class="panel-body">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Topic or Question for project..." id="submit-topic-field-project">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="submit-topic-button-project">Submit!</button>
+          </span>
+      </div>
+      <div class="alert alert-danger" id="error-project" role="alert">Please Submit a Value. Jeez.</div>
+
+      <h5>Topics the class wants to cover so far:</h5>
+      <ul id="topics-to-cover-project">
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Submit Topics You Want Us To Cover in General</h3>
+      <h6>Please enter a topic you would like for us to cover in more depth on the last day of class.</h6>
+    </div>
+    <div class="panel-body">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Topic or Question..." id="submit-topic-field">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="submit-topic-button">Submit!</button>
+          </span>
+      </div>
+      <div class="alert alert-danger" id="error" role="alert">Please Submit a Value. Jeez.</div>
+
+      <h5>Topics the class wants to cover so far:</h5>
+      <ul id="topics-to-cover">
+
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<body>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDlh6WC5f_BfQ-5Ef2PhUxD1HuK4K0y4MI",
+      authDomain: "topics-jumpstart.firebaseapp.com",
+      databaseURL: "https://topics-jumpstart.firebaseio.com",
+      projectId: "topics-jumpstart",
+      storageBucket: "topics-jumpstart.appspot.com",
+      messagingSenderId: "395295989434"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="./../main.js"></script>
+</body>
+
+</html>
