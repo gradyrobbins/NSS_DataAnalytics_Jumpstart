@@ -1,4 +1,8 @@
-# Web Development Jumpstart Curriculum
-Curriculum and exercises for the Web Development Jumpstart course.
+# Data Analytics Jumpstart Curriculum
+Curriculum and exercises for the DATA ANALYTICS Jumpstart course.
 
-These lessons are hosted via Codepen: nashss.com/JumpstartClass
+Many elements of this website were adapted from Callan Morrison's Web Development Jumpstart Repository;
+
+thanks, Callan Morrison, Nashville Software School, and countless others upon whose shoulders we gratefully stand.
+
+
